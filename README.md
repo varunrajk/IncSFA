@@ -1,6 +1,7 @@
  
-Python code for Incremental Slow Feature Analysis 
-================================================
+==================================
+Incremental Slow Feature Analysis 
+==================================
 
 Author - Varun Raj Kompella, IDSIA, Switzerland. (www.idsia.ch/~kompella)
 
@@ -13,7 +14,8 @@ Slow Feature Analysis: Adaptive Low-Complexity Slow Feature Updating from
 High-Dimensional Input Streams", Neural Computation Journal, 
 Vol. 24 (11), pp. 2994--3024, 2012.  
 
-Abstract: 
+Abstract 
+=========
 
 Extract slowly varying components from the input data incrementally.
 More information about Incremental Slow Feature Analysis can be found in
@@ -23,7 +25,8 @@ Neural Computation, 2012. (http://www.idsia.ch/~kompella/mywork/incsfa.html)
 
 Some of the terminology used in the code is inspired from MDP toolkit (mdp-toolkit.sourceforge.net)
 
-Files:
+Files
+======
 
 ccipca.py 	: Candid Covariance-Free Incremental PCA module
 mca.py 		: Minor Component Analysis module
@@ -33,7 +36,8 @@ trainer.py	: trainer module used for training the modules (modes: 'Incremental',
 
 test_incsfa.py	: Test example code for IncSFA
 
-Optional Dependencies:
+Optional Dependencies
+======================
 
 1) MDP toolkit for test_incsfa
 2) PyQTGraph for fast animated plotting (default is matplotlib)
